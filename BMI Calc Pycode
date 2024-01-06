@@ -1,0 +1,6 @@
+weight =input("How many pounds are you?")
+height = input("How tall are you? (in inches)")
+bmi = (int(703) * float(weight) / float(height) ** 2)
+bmi = str(bmi)
+print("Your BMI (Body Mass Index) is " + bmi )
+print("Done!")
